@@ -1,0 +1,60 @@
+/* Layout and container styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Form section */
+  input[type="text"] {
+    margin: 5px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 6px 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table styling */
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
